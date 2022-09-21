@@ -30,8 +30,8 @@ parameters {
              steps {
                  //sh "returnStatus: true, script: 'terraform workspace new dev'"
                  // sh "terraform destroy -auto-approve"
-                   sh "terraform plan"
-                   // sh "terraform plan -out=tfplan -input=false"
+                   //sh "terraform plan"
+                    sh "terraform plan -out=tfplan -input=false"
                  
                 
                   
