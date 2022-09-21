@@ -1,8 +1,8 @@
 pipeline {
     agent any
-parameters {
-  credentials credentialType: 'com.cloudbees.jenkins.plugins.awscredentials.AWSCredentialsImpl', defaultValue: '608b0a05-f4f2-46db-b684-0f1f93741258', name: 'AWS', required: false
-}
+// parameters {
+//   credentials credentialType: 'com.cloudbees.jenkins.plugins.awscredentials.AWSCredentialsImpl', defaultValue: '608b0a05-f4f2-46db-b684-0f1f93741258', name: 'AWS', required: false
+// }
 
 
     environment {
